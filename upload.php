@@ -11,8 +11,6 @@ if(isset($_POST['submit'])){
     $fileType = $file['type'];
 
     // Get the Github repository information
-    $githubRepo = 'shreyasicon/Plantleafdisease';
-    $githubToken = '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';
     $githubBranch = 'main'; // Or the branch you want to save the file to
     $githubDirectory = 'uploads/'; // The directory in the Github repository to save the file to
 
@@ -72,3 +70,4 @@ if(isset($_POST['submit'])){
     }
 
 }
+
